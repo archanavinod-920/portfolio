@@ -1,0 +1,41 @@
+
+.bg{
+  background-image:linear-gradient(to right,white,pink);
+  height:100%;
+  width:100vw;
+  background-size:cover;
+}
+.img{
+	border-radius:200px;
+	height:250px;
+	border-width:2px;
+	border-color:black;
+	border-style:solid;
+}
+.card{
+	background-image:linear-gradient(to right,#e2798a,pink);
+	color:black;
+	border-width:2px;
+	border-style:solid;
+	border-color:black;
+	padding-left:10px;
+	padding-right:10px;
+}
+.proj{
+	height:200px;
+	padding:10px;
+}
+.form(
+  display:flex;
+  flex-direction:column;
+  gap:15px;
+}
+.input{
+	padding:10px;
+	border-radius:8px;
+	border:none;
+}
+footer{
+	text-align:center;
+	color:grey;
+}
